@@ -4,8 +4,8 @@ import { ethers } from 'ethers';
 export const CHAINS = {
   SEPOLIA: 11155111,
   HOLESKY: 17000,
-  BABYLON: 'babylon-testnet',
-  XION: 'xion-testnet-1',
+  BABYLON: 'bbn-test-5',
+  XION: 'xion-testnet-2',
   CORN: 99999
 };
 
