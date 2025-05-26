@@ -6,14 +6,14 @@ import prompt from 'prompt-sync';
 const getKey = prompt({ sigint: true });
 const privateKey = getKey('Enter your private key (hidden): ');
 
-const XION_TO_BABYLON = {
-  sourceChain: 'XION',
-  destChain: 'BABYLON',
-  asset: 'uxion',
-  amount: 10,
+const BABYLON_TO_XION = {
+  sourceChain: 'BABYLON',
+  destChain: 'XION',
+  asset: 'ubbn',
+  amount: 1,
   privateKey: privateKey
 };
 
-sendToken(XION_TO_BABYLON)
+sendToken(BABYLON_TO_XION)
   .then(txHash => console.log(`✅ TX Hash: ${txHash}`))
   .catch(console.error);
