@@ -14,7 +14,7 @@ export const RPC_URLS = {
   SEPOLIA: 'https://eth-sepolia.g.alchemy.com/v2/GSQ458MB7rf3l9f7cPgntZ3txx9uOmwB',
   HOLESKY: 'https://eth-holesky.g.alchemy.com/v2/GSQ458MB7rf3l9f7cPgntZ3txx9uOmwB',
   BABYLON: 'https://babylon-testnet-rpc.polkachu.com',
-  XION: 'https://xion-testnet-rpc.polkachu.com',
+  XION: 'https://rpc.xion-testnet-2.burnt.com',
   CORN: 'https://rpc.ankr.com/corn_testnet'
 };
 
@@ -29,6 +29,9 @@ export const RPC_FALLBACKS = {
   ],
   BABYLON: [
     'https://rpc.babylonchain.io'
+  ],
+  XION: [
+    'https://rpc.xion-testnet-2.burnt.com'
   ]
 };
 
